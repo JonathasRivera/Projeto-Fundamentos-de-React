@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, {useContext} from "react";
-import { ThemeContext } from '@/app/contexts/theme/ThemeContext';
+import { ThemeContext } from '../contexts/theme/ThemeContext';
 
 const Drawer = ({ isOpen, onClose }) => {
     const { theme, toggleTheme } = useContext(ThemeContext);

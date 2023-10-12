@@ -1,10 +1,10 @@
 import 'tailwindcss/tailwind.css'
-import Appbar from '@/app/componentes/Appbar';
-import Bottom from '@/app/componentes/Bottom';
-import Drawer from '@/app/componentes/Drawer';
+import Appbar from '../../src/app/componentes/Appbar';
+import Bottom from '../../src/app/componentes/Bottom';
+import Drawer from '../../src/app/componentes/Drawer';
 import React, {useContext, useState} from 'react';
-import { CartContext } from '@/app/contexts/cartContext/CartContext';
-import { ProductContainer, ProductImage, CardButton } from '@/styles/productsStyles/ProductsStyles'
+import { CartContext } from '../../src/app/contexts/cartContext/CartContext';
+import { ProductContainer, ProductImage, CardButton } from '../../src/styles/productsStyles/ProductsStyles'
 
 const CartPage = () => {
 

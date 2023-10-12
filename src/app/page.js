@@ -1,12 +1,9 @@
 'use client'
 import Image from 'next/image';
 import Appbar from './componentes/Appbar';
-import Bottom from './componentes/Bottom';
 import Drawer from './componentes/Drawer';
 import React, {useState} from 'react';
 import {useRouter} from "next/navigation";
-import Breadcrumbs from './componentes/Breadcrumbs';
-import NavBar from './componentes/NavBar';
 import Link from 'next/link';
 
 
@@ -82,7 +79,7 @@ export default function Home() {
           rel="next"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Novidades!{' '}
+            Novidades{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>

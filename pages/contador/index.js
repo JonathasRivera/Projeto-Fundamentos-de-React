@@ -1,6 +1,6 @@
-import Breadcrumbs from "@/app/componentes/Breadcrumbs";
-import Button from "@/app/componentes/Button";
-import NavBar from "@/app/componentes/NavBar";
+import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
+import Button from "../../src/app/componentes/Button";
+import NavBar from "../../src/app/componentes/NavBar";
 import React, {useState} from "react";
 import './styles.css';
 

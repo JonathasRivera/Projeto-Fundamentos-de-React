@@ -1,7 +1,7 @@
 'use client'
-import Appbar from '@/app/componentes/Appbar';
-import Bottom from '@/app/componentes/Bottom';
-import Drawer from '@/app/componentes/Drawer';
+import Appbar from '../../src/app/componentes/Appbar';
+import Bottom from '../../src/app/componentes/Bottom';
+import Drawer from '../../src/app/componentes/Drawer';
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
 import React, {useState} from 'react';

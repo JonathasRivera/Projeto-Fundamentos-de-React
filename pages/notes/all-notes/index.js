@@ -1,5 +1,5 @@
-import Breadcrumbs from "@/app/componentes/Breadcrumbs";
-import NavBar from "@/app/componentes/NavBar";
+import Breadcrumbs from "../../../src/app/componentes/Breadcrumbs";
+import NavBar from "../../../src/app/componentes/NavBar";
 import React from "react";
 
 const Allnotes = () => {

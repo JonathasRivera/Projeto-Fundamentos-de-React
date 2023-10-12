@@ -1,14 +1,14 @@
 'use client'
 import 'tailwindcss/tailwind.css'
-import Appbar from '@/app/componentes/Appbar';
-import Bottom from '@/app/componentes/Bottom';
-import Drawer from '@/app/componentes/Drawer';
+import Appbar from '../../src/app/componentes/Appbar';
+import Bottom from '../../src/app/componentes/Bottom';
+import Drawer from '../../src/app/componentes/Drawer';
 import React, {useContext, useEffect, useState} from 'react';
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
-import { fetchProducts } from '@/app/utils/api';
-import { CartContext } from '@/app/contexts/cartContext/CartContext';
-import { ProductContainer, ProductImage, CardButton } from '@/styles/productsStyles/ProductsStyles'
+import { fetchProducts } from '../../src/app/utils/api';
+import { CartContext } from '../../src/app/contexts/cartContext/CartContext';
+import { ProductContainer, ProductImage, CardButton } from '../../src/styles/productsStyles/ProductsStyles'
 
 const ProductsPage = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState();

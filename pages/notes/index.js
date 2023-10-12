@@ -1,6 +1,6 @@
-import Breadcrumbs from "@/app/componentes/Breadcrumbs";
+import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
 import React from "react";
-import NavBar from "@/app/componentes/NavBar";
+import NavBar from "../../src/app/componentes/NavBar";
 import Link from "next/link";
 
 const indexNotes = () => {

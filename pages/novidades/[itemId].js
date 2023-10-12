@@ -1,9 +1,9 @@
-import Breadcrumbs from "@/app/components/Breadcrumbs";
-import NavBar from "@/app/components/NavBar";
-import Title from "@/app/components/Title";
+import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
+import NavBar from "../../src/app/componentes/NavBar";
+import Title from "../../src/app/componentes/Title";
 import React from "react";
 import axios from "axios";
-import Layout from "@/app/components/Layout";
+import Layout from "../../src/app/componentes/Layout";
 
 const PostPage = ({ post, comments }) => {
     return(

@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
-import Appbar from '@/app/componentes/Appbar';
-import Bottom from '@/app/componentes/Bottom';
-import Drawer from '@/app/componentes/Drawer';
+import Appbar from '../../src/app/componentes/Appbar';
+import Bottom from '../../src/app/componentes/Bottom';
+import Drawer from '../../src/app/componentes/Drawer';
 import { useSession } from 'next-auth/react';
-import CompleteProfileForm from '@/app/componentes/CompleteProfileForm';
+import CompleteProfileForm from '../../src/app/componentes/CompleteProfileForm';
 import 'tailwindcss/tailwind.css'
 
 const CompleteProfile = () => {

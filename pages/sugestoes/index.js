@@ -1,12 +1,12 @@
-import Breadcrumbs from "@/app/componentes/Breadcrumbs";
+import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
 import React from "react";
-import NavBar from "@/app/componentes/NavBar";
-import Layout from "@/app/componentes/Layout";
-import Title from "@/app/componentes/Title";
-import { useNotes } from "@/app/contexts/noteContext";
-import InputText from "@/app/componentes/InputText";
-import Button from "@/app/componentes/Button";
-import Card from "@/app/componentes/Card";
+import NavBar from "../../src/app/componentes/NavBar";
+import Layout from "../../src/app/componentes/Layout";
+import Title from "../../src/app/componentes/Title";
+import { useNotes } from "../../src/app/contexts/noteContext";
+import InputText from "../../src/app/componentes/InputText";
+import Button from "../../src/app/componentes/Button";
+import Card from "../../src/app/componentes/Card";
 
 const indexNotes = () => {
     const { notes, addNote } = useNotes();

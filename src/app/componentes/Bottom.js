@@ -1,5 +1,5 @@
 import React,{useContext, useEffect} from "react";
-import { ThemeContext } from '@/app/contexts/theme/ThemeContext';
+import { ThemeContext } from '../contexts/theme/ThemeContext';
 
 function Bottom() {
     const { theme } = useContext(ThemeContext);

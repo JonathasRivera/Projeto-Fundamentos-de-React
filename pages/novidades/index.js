@@ -1,9 +1,9 @@
-import Breadcrumbs from "@/app/componentes/Breadcrumbs";
-import Layout from "@/app/componentes/Layout";
-import NavBar from "@/app/componentes/NavBar";
+import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
+import Layout from "../../src/app/componentes/NavBar";
+import NavBar from "../../src/app/componentes/NavBar";
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import Title from "@/app/componentes/Title";
+import Title from "../../src/app/componentes/Title";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 

@@ -2,6 +2,7 @@ import Breadcrumbs from "@/app/componentes/Breadcrumbs";
 import Button from "@/app/componentes/Button";
 import NavBar from "@/app/componentes/NavBar";
 import React, {useState} from "react";
+import './styles.css';
 
 const ContadorApp = () => {
 

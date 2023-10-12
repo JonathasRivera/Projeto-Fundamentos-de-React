@@ -1,6 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { NoteProvider } from '../../src/app/contexts/noteContext'
+import { ThemeProvider } from './contexts/theme/ThemeContext'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,12 +13,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-      <NoteProvider>
-        {children}
-      </NoteProvider>
-      </body>
-    </html>
+    <ThemeProvider>
+      <html lang="en">
+        <link rel="manifest" href="manifest.jason"></link>
+        <body className={inter.className}>
+          <NoteProvider>
+            {children}
+          </NoteProvider>
+        </body>
+      </html>
+    </ThemeProvider>
   )
 }

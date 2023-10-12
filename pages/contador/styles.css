@@ -1,0 +1,22 @@
+/* .button{
+    height: 38px;
+    width: 130px;
+
+    color: white;
+    font-weight: 700;
+    
+    background-image: linear-gradient(to right, #eab308, #b91c1c);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    border-radius: 0.25rem;
+
+    transition: background-image 0.3s;
+
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, #b91c1c, #eab308);
+} */

@@ -1,5 +1,5 @@
 import Breadcrumbs from "../../src/app/componentes/Breadcrumbs";
-import Layout from "../../src/app/componentes/NavBar";
+import Layout from "../../src/app/componentes/Layout";
 import NavBar from "../../src/app/componentes/NavBar";
 import React, {useEffect, useState} from "react";
 import axios from "axios";

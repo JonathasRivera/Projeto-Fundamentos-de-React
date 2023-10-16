@@ -17,8 +17,8 @@ const PostPage = ({ post, comments }) => {
 
             <ul>
             {comments.map((comment) => (
-                <div className="bg-white shadow-md rounded p-4 mb-4">
-                    <li key={comment.id}>
+                <div key={comment.id} className="bg-white shadow-md rounded p-4 mb-4">
+                    <li>
                         <p>Título: {comment.name}</p>
                         <p>Email: {comment.email}</p>
                         <p>Body: {comment.body}</p>

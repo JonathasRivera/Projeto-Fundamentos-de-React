@@ -8,7 +8,7 @@ import InputText from "../../src/app/componentes/InputText";
 import Button from "../../src/app/componentes/Button";
 import Card from "../../src/app/componentes/Card";
 
-const indexNotes = () => {
+const useIndexNotes = () => {
     const { notes, addNote } = useNotes();
 
 
@@ -55,4 +55,4 @@ const indexNotes = () => {
     )
 }
 
-export default indexNotes;
+export default useIndexNotes;

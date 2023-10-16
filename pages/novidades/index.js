@@ -93,8 +93,8 @@ const Posts = () => {
             <div>
                 <ul>
                 {posts.map((post) => (
-                    <div className="bg-white shadow-md rounded p-4 mb-4">
-                        <li key={post.id}>
+                    <div key={post.id} className="bg-white shadow-md rounded p-4 mb-4">
+                        <li>
                             <strong>Titulo: </strong> 
                             <Link 
                                 href={`/posts/${post.id}`}

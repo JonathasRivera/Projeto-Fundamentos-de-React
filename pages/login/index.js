@@ -58,7 +58,7 @@ const LoginPage = () => {
       <Drawer isOpen={isDrawerOpen} onClose={handleMenuToggle}></Drawer>
       <h2> You are not signed in!!</h2>
         <button className='h-12 bg-gradient-to-r from-yellow-500 to-red-700 text-white font-bold py-2 px-4 rounded'
-                onClick={() => signIn()}>
+                onClick={() => signIn('google')}>
           Sign in
         </button>
       <Bottom></Bottom>
